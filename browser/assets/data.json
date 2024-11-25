@@ -1,0 +1,509 @@
+{
+    "levels": [
+      {  
+        "id":"1",
+        "name": "Beginner",
+        "questions": [
+          {
+            "question": "Sanskrit word for Sun",
+            "options": ["सूर्यः", "चन्द्रः", "गगनम्"],
+            "answer": "सूर्यः",
+            "hint": "Bright in the sky"
+          },
+          {
+            "question": "Sanskrit word for Moon",
+            "options": ["सूर्यः", "चन्द्रः", "गगनम्"],
+            "answer": "चन्द्रः",
+            "hint": "Visible at night"
+          },
+          {
+            "question": "Sanskrit word for Star",
+            "options": ["नक्षत्रम्", "सूर्यः", "चन्द्रः"],
+            "answer": "नक्षत्रम्",
+            "hint": "Twinkles in the night sky"
+          },
+          {
+            "question": "Sanskrit word for River",
+            "options": ["नदी", "ग्रामः", "वनम्"],
+            "answer": "नदी",
+            "hint": "Flows with water"
+          },
+          {
+            "question": "Sanskrit word for Water",
+            "options": ["जलम्", "भूमिः", "वायुः"],
+            "answer": "जलम्",
+            "hint": "Drink to survive"
+          },
+          {
+            "question": "Sanskrit word for Earth",
+            "options": ["अग्निः", "भूमिः", "गगनम्"],
+            "answer": "भूमिः",
+            "hint": "We live here"
+          },
+          {
+            "question": "Sanskrit word for Tree",
+            "options": ["वृक्षः", "फलः", "गगनम्"],
+            "answer": "वृक्षः",
+            "hint": "Grows tall and has leaves"
+          },
+          {
+            "question": "Sanskrit word for Sky",
+            "options": ["गगनम्", "भूमिः", "जलम्"],
+            "answer": "गगनम्",
+            "hint": "Above us all"
+          },
+          {
+            "question": "Sanskrit word for Mountain",
+            "options": ["पर्वतः", "ग्रामः", "जलम्"],
+            "answer": "पर्वतः",
+            "hint": "Tall and rocky"
+          },
+          {
+            "question": "Sanskrit word for Flower",
+            "options": ["पुष्पम्", "फलम्", "अग्निः"],
+            "answer": "पुष्पम्",
+            "hint": "Blooms in gardens"
+          },
+          {
+            "question": "Sanskrit word for Fruit",
+            "options": ["फलम्", "वृक्षः", "पुष्पम्"],
+            "answer": "फलम्",
+            "hint": "Edible part of a tree"
+          },
+          {
+            "question": "Sanskrit word for Grass",
+            "options": ["तृणम्", "भूमिः", "गगनम्"],
+            "answer": "तृणम्",
+            "hint": "Green and soft"
+          },
+          {
+            "question": "Sanskrit word for House",
+            "options": ["गृहः", "ग्रामः", "वनम्"],
+            "answer": "गृहः",
+            "hint": "A place to live"
+          },
+          {
+            "question": "Sanskrit word for Road",
+            "options": ["मार्गः", "गृहः", "पर्वतः"],
+            "answer": "मार्गः",
+            "hint": "Path to travel"
+          },
+          {
+            "question": "Sanskrit word for King",
+            "options": ["राजा", "प्रजा", "ग्रामः"],
+            "answer": "राजा",
+            "hint": "Rules the kingdom"
+          },
+          {
+            "question": "Sanskrit word for Queen",
+            "options": ["रानी", "राजा", "प्रजा"],
+            "answer": "रानी",
+            "hint": "Female ruler"
+          },
+          {
+            "question": "Sanskrit word for City",
+            "options": ["नगरम्", "ग्रामः", "वनम्"],
+            "answer": "नगरम्",
+            "hint": "Urban area"
+          },
+          {
+            "question": "Sanskrit word for Village",
+            "options": ["ग्रामः", "नगरम्", "वनम्"],
+            "answer": "ग्रामः",
+            "hint": "Rural area"
+          },
+          {
+            "question": "Sanskrit word for Forest",
+            "options": ["वनम्", "ग्रामः", "नगरम्"],
+            "answer": "वनम्",
+            "hint": "Full of trees"
+          },
+          {
+            "question": "Sanskrit word for Book",
+            "options": ["पुस्तकम्", "पत्रम्", "अक्षरम्"],
+            "answer": "पुस्तकम्",
+            "hint": "Used for reading"
+          }
+        ]
+      },
+      {
+        "id":"2",
+        "name": "Intermediate",
+        "questions": [
+            {
+                "question": "Sanskrit word for Knowledge",
+                "options": ["ज्ञानम्", "शक्ति", "बलम्"],
+                "answer": "ज्ञानम्",
+                "hint": "Wisdom"
+              },
+              {
+                "question": "Sanskrit word for Strength",
+                "options": ["बलम्", "वायुः", "अग्निः"],
+                "answer": "बलम्",
+                "hint": "Power"
+              },
+              {
+                "question": "Sanskrit word for Light",
+                "options": ["प्रकाशः", "अन्धकारः", "चन्द्रः"],
+                "answer": "प्रकाशः",
+                "hint": "Opposite of dark"
+              },
+              {
+                "question": "Sanskrit word for Shadow",
+                "options": ["छायाम्", "प्रकाशः", "अन्धकारः"],
+                "answer": "छायाम्",
+                "hint": "Follows you in the sun"
+              },
+              {
+                "question": "Sanskrit word for Ocean",
+                "options": ["समुद्रः", "नदी", "पर्वतः"],
+                "answer": "समुद्रः",
+                "hint": "Vast body of water"
+              },
+              {
+                "question": "Sanskrit word for Fire",
+                "options": ["अग्निः", "वायुः", "जलम्"],
+                "answer": "अग्निः",
+                "hint": "Produces heat"
+              },
+              {
+                "question": "Sanskrit word for Air",
+                "options": ["वायुः", "जलम्", "गगनम्"],
+                "answer": "वायुः",
+                "hint": "Invisible and everywhere"
+              },
+              {
+                "question": "Sanskrit word for Teacher",
+                "options": ["गुरुः", "शिष्यः", "राजा"],
+                "answer": "गुरुः",
+                "hint": "Imparts knowledge"
+              },
+              {
+                "question": "Sanskrit word for Student",
+                "options": ["शिष्यः", "गुरुः", "राजा"],
+                "answer": "शिष्यः",
+                "hint": "Learns from a guru"
+              },
+              {
+                "question": "Sanskrit word for Food",
+                "options": ["आहारः", "फलम्", "दुग्धम्"],
+                "answer": "आहारः",
+                "hint": "Essential for survival"
+              },
+              {
+                "question": "Sanskrit word for Milk",
+                "options": ["दुग्धम्", "आहारः", "जलम्"],
+                "answer": "दुग्धम्",
+                "hint": "White liquid"
+              },
+              {
+                "question": "Sanskrit word for Elephant",
+                "options": ["गजः", "सिंहः", "अश्वः"],
+                "answer": "गजः",
+                "hint": "Large animal with a trunk"
+              },
+              {
+                "question": "Sanskrit word for Lion",
+                "options": ["सिंहः", "गजः", "अश्वः"],
+                "answer": "सिंहः",
+                "hint": "King of the jungle"
+              },
+              {
+                "question": "Sanskrit word for Horse",
+                "options": ["अश्वः", "गजः", "सिंहः"],
+                "answer": "अश्वः",
+                "hint": "Used for riding"
+              },
+              {
+                "question": "Sanskrit word for Clock",
+                "options": ["घटी", "पुस्तकम्", "गृहः"],
+                "answer": "घटी",
+                "hint": "Tracks time"
+              },
+              {
+                "question": "Sanskrit word for Rain",
+                "options": ["वृष्टिः", "जलम्", "भूमिः"],
+                "answer": "वृष्टिः",
+                "hint": "Falls from clouds"
+              },
+              {
+                "question": "Sanskrit word for Eye",
+                "options": ["नेत्रम्", "हस्तः", "पादः"],
+                "answer": "नेत्रम्",
+                "hint": "Used to see"
+              },
+              {
+                "question": "Sanskrit word for Hand",
+                "options": ["हस्तः", "नेत्रम्", "पादः"],
+                "answer": "हस्तः",
+                "hint": "Used to hold"
+              },
+              {
+                "question": "Sanskrit word for Leg",
+                "options": ["पादः", "हस्तः", "नेत्रम्"],
+                "answer": "पादः",
+                "hint": "Used to walk"
+              },
+              {
+                "question": "Sanskrit word for Door",
+                "options": ["द्वारम्", "गृहः", "नगरम्"],
+                "answer": "द्वारम्",
+                "hint": "Entrance to a room"
+              }
+        ]
+      },
+      {
+        "id":"3",
+        "name": "Advanced",
+        "questions": [
+            {
+                "question": "Sanskrit word for Happiness",
+                "options": ["सुखम्", "दुःखम्", "क्रोधः"],
+                "answer": "सुखम्",
+                "hint": "Feeling of joy"
+              },
+              {
+                "question": "Sanskrit word for Sadness",
+                "options": ["दुःखम्", "सुखम्", "शोकः"],
+                "answer": "दुःखम्",
+                "hint": "Opposite of joy"
+              },
+              {
+                "question": "Sanskrit word for Peace",
+                "options": ["शान्तिः", "युद्धम्", "सुखम्"],
+                "answer": "शान्तिः",
+                "hint": "State of calm"
+              },
+              {
+                "question": "Sanskrit word for River",
+                "options": ["नदी", "पर्वतः", "गृहः"],
+                "answer": "नदी",
+                "hint": "Flows across land"
+              },
+              {
+                "question": "Sanskrit word for Mountain",
+                "options": ["पर्वतः", "गृहः", "नदी"],
+                "answer": "पर्वतः",
+                "hint": "Elevated landform"
+              },
+              {
+                "question": "Sanskrit word for Flower",
+                "options": ["पुष्पम्", "वृक्षः", "फलम्"],
+                "answer": "पुष्पम्",
+                "hint": "Found on plants"
+              },
+              {
+                "question": "Sanskrit word for Tree",
+                "options": ["वृक्षः", "पुष्पम्", "फलम्"],
+                "answer": "वृक्षः",
+                "hint": "Large plant"
+              },
+              {
+                "question": "Sanskrit word for Sun",
+                "options": ["सूर्यः", "चन्द्रः", "तारका"],
+                "answer": "सूर्यः",
+                "hint": "Rises in the east"
+              },
+              {
+                "question": "Sanskrit word for Moon",
+                "options": ["चन्द्रः", "सूर्यः", "तारका"],
+                "answer": "चन्द्रः",
+                "hint": "Visible at night"
+              },
+              {
+                "question": "Sanskrit word for Star",
+                "options": ["तारका", "चन्द्रः", "सूर्यः"],
+                "answer": "तारका",
+                "hint": "Twinkles in the sky"
+              },
+              {
+                "question": "Sanskrit word for Book",
+                "options": ["पुस्तकम्", "लेखनी", "गृहः"],
+                "answer": "पुस्तकम्",
+                "hint": "Used for reading"
+              },
+              {
+                "question": "Sanskrit word for Pen",
+                "options": ["लेखनी", "पुस्तकम्", "अलम्"],
+                "answer": "लेखनी",
+                "hint": "Used for writing"
+              },
+              {
+                "question": "Sanskrit word for Friend",
+                "options": ["मित्रम्", "शत्रुः", "राजा"],
+                "answer": "मित्रम्",
+                "hint": "Someone close to you"
+              },
+              {
+                "question": "Sanskrit word for Enemy",
+                "options": ["शत्रुः", "मित्रम्", "गुरुः"],
+                "answer": "शत्रुः",
+                "hint": "Opposite of a friend"
+              },
+              {
+                "question": "Sanskrit word for Gold",
+                "options": ["सुवर्णम्", "रजतम्", "लोहः"],
+                "answer": "सुवर्णम्",
+                "hint": "Precious metal"
+              },
+              {
+                "question": "Sanskrit word for Silver",
+                "options": ["रजतम्", "सुवर्णम्", "कांस्यः"],
+                "answer": "रजतम्",
+                "hint": "Precious white metal"
+              },
+              {
+                "question": "Sanskrit word for King",
+                "options": ["राजा", "मन्त्री", "सेनापतिः"],
+                "answer": "राजा",
+                "hint": "Rules the kingdom"
+              },
+              {
+                "question": "Sanskrit word for Queen",
+                "options": ["रानी", "राजा", "सेनापतिः"],
+                "answer": "रानी",
+                "hint": "Wife of a king"
+              },
+              {
+                "question": "Sanskrit word for Crow",
+                "options": ["काकः", "पक्षी", "गजः"],
+                "answer": "काकः",
+                "hint": "Black bird"
+              },
+              {
+                "question": "Sanskrit word for Peacock",
+                "options": ["मयूरः", "काकः", "हंसः"],
+                "answer": "मयूरः",
+                "hint": "National bird of India"
+              }
+        ]
+      },
+      {
+        "id":"4",
+        "name": "Expert",
+        "questions": [
+            {
+                "question": "Sanskrit word for Friendship",
+                "options": ["मित्रता", "शत्रुता", "स्नेहः"],
+                "answer": "मित्रता",
+                "hint": "Bond between friends"
+              },
+              {
+                "question": "Sanskrit word for Courage",
+                "options": ["साहसम्", "भयम्", "शक्ति"],
+                "answer": "साहसम्",
+                "hint": "Bravery"
+              },
+              {
+                "question": "Sanskrit word for Compassion",
+                "options": ["करुणा", "क्रोधः", "दुःखम्"],
+                "answer": "करुणा",
+                "hint": "Feeling of empathy"
+              },
+              {
+                "question": "Sanskrit word for Patience",
+                "options": ["धैर्यम्", "क्रोधः", "शक्तिः"],
+                "answer": "धैर्यम्",
+                "hint": "Endurance"
+              },
+              {
+                "question": "Sanskrit word for Determination",
+                "options": ["संकल्पः", "विचारः", "आशयः"],
+                "answer": "संकल्पः",
+                "hint": "Strong resolve"
+              },
+              {
+                "question": "Sanskrit word for Shadow",
+                "options": ["छायाः", "प्रकाशः", "अन्धकारः"],
+                "answer": "छायाः",
+                "hint": "Opposite of light"
+              },
+              {
+                "question": "Sanskrit word for Ocean",
+                "options": ["समुद्रः", "नदी", "जलाशयः"],
+                "answer": "समुद्रः",
+                "hint": "Large water body"
+              },
+              {
+                "question": "Sanskrit word for Victory",
+                "options": ["जयः", "पराजयः", "युद्धः"],
+                "answer": "जयः",
+                "hint": "Opposite of defeat"
+              },
+              {
+                "question": "Sanskrit word for Defeat",
+                "options": ["पराजयः", "जयः", "युद्धः"],
+                "answer": "पराजयः",
+                "hint": "Opposite of victory"
+              },
+              {
+                "question": "Sanskrit word for Teacher",
+                "options": ["गुरुः", "विद्यार्थी", "मित्रम्"],
+                "answer": "गुरुः",
+                "hint": "Imparts knowledge"
+              },
+              {
+                "question": "Sanskrit word for Student",
+                "options": ["विद्यार्थी", "गुरुः", "शत्रुः"],
+                "answer": "विद्यार्थी",
+                "hint": "Learns from teacher"
+              },
+              {
+                "question": "Sanskrit word for Heart",
+                "options": ["हृदयम्", "मस्तिष्कः", "नेत्रम्"],
+                "answer": "हृदयम्",
+                "hint": "Pumps blood"
+              },
+              {
+                "question": "Sanskrit word for Brain",
+                "options": ["मस्तिष्कः", "हृदयम्", "नेत्रम्"],
+                "answer": "मस्तिष्कः",
+                "hint": "Controls thoughts"
+              },
+              {
+                "question": "Sanskrit word for Eye",
+                "options": ["नेत्रम्", "कर्णः", "जिव्हा"],
+                "answer": "नेत्रम्",
+                "hint": "Used to see"
+              },
+              {
+                "question": "Sanskrit word for Ear",
+                "options": ["कर्णः", "नेत्रम्", "नासिका"],
+                "answer": "कर्णः",
+                "hint": "Used to hear"
+              },
+              {
+                "question": "Sanskrit word for Nose",
+                "options": ["नासिका", "नेत्रम्", "मुखः"],
+                "answer": "नासिका",
+                "hint": "Used to smell"
+              },
+              {
+                "question": "Sanskrit word for Fire",
+                "options": ["अग्निः", "जलम्", "वायुः"],
+                "answer": "अग्निः",
+                "hint": "Burns things"
+              },
+              {
+                "question": "Sanskrit word for Water",
+                "options": ["जलम्", "अग्निः", "वायुः"],
+                "answer": "जलम्",
+                "hint": "Essential for life"
+              },
+              {
+                "question": "Sanskrit word for Wind",
+                "options": ["वायुः", "जलम्", "अग्निः"],
+                "answer": "वायुः",
+                "hint": "Flows in the air"
+              },
+              {
+                "question": "Sanskrit word for Sky",
+                "options": ["आकाशः", "पृथ्वी", "सागरः"],
+                "answer": "आकाशः",
+                "hint": "Above the earth"
+              }
+        ]
+      }
+    ]
+  }
+  
