@@ -1,0 +1,7 @@
+<!-- src/app/select-level/select-level.component.html -->
+<div class="level-selection">
+  <h2>Select a Level</h2>
+  <div *ngFor="let level of levels">
+    <button (click)="selectLevel(level)">{{ level.name }}</button>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<!-- src/app/game/game.component.html -->
+<div *ngIf="gameStarted && currentQuestion" class="game-container">
+  <h2>{{ currentLevel.name }} Level - 7Q Word Game</h2>
+  <p [@questionAnimation]>{{ currentQuestion.question }}</p>
+
+  <div class="options">
+    <button 
+      *ngFor="let option of currentQuestion.options" 
+      [class.selected]="option === selectedOption" 
+      (click)="selectOption(option)" 
+      (mousedown)="handleButtonClick()" 
+      [class.clicked]="isButtonClicked"
+      [@optionAnimation]
+    >
+      {{ option }}
+    </button>
+  </div>
+
+  <div class="controls">
+    <button (click)="checkAnswer()" (mousedown)="handleButtonClick()" [class.clicked]="isButtonClicked">Submit Answer</button>
+    <button (click)="shuffleOptions()" (mousedown)="handleButtonClick()" [class.clicked]="isButtonClicked">Shuffle Options</button>
+    <button (click)="showHintMessage()" (mousedown)="handleButtonClick()" [class.clicked]="isButtonClicked">Show Hint</button>
+  </div>
+
+  <p *ngIf="showHint" [@questionAnimation]>Hint: {{ currentQuestion.hint }}</p>
+  <p>Score: <span [@scoreAnimation]="score">{{ score }}</span></p>
+  <p>Time Left: {{ timer }} seconds</p>
+</div>
+
+<!-- Game Over Section -->
+<div *ngIf="gameEnded" class="end-game">
+  <h2>Game Over</h2>
+  <p>Your final score is: {{ score }}</p>
+  <button (click)="resetGame()">Play Again</button>
+  <button (click)="goToHome()">Go to Home</button>
+  <button (click)="goBackToLevels()">Go Back to Levels</button> <!-- New button for going back to levels -->
+</div>
+
