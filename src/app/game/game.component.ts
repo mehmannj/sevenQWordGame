@@ -85,6 +85,7 @@ export class GameComponent implements OnInit {
   }
 
   selectOption(option: string): void {
+    Math.random()
     this.selectedOption = option;
   }
 
