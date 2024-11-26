@@ -4,12 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
-    /*background-image: url('/assets/images/background.jpg');*/
-    background-image: url(../assets/images/background.jpg);
-=======
-    background-image: url('/assets/images/background.jpg');
->>>>>>> 8599537518dabff53304cd24b61bfdd07fbc4469
+ /*background-image: url('/assets/images/background.jpg');*/
+    background-image: url(../assets/images/background.jpg)
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
