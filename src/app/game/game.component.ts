@@ -80,9 +80,15 @@ export class GameComponent implements OnInit {
       this.currentQuestion = questions[randomIndex];
       this.selectedOption = null;
       this.showHint = false;
-      this.resetTimer();  // Reset the timer each time a new question is loaded
+      this.resetTimer(); // Reset the timer each time a new question is loaded
+  
+      // Automatically shuffle the options for the current question
+      if (this.currentQuestion?.options) {
+        this.currentQuestion.options = [...this.currentQuestion.options].sort(() => Math.random() - 0.5);
+      }
     }
   }
+  
 
   selectOption(option: string): void {
     Math.random()
@@ -99,11 +105,11 @@ export class GameComponent implements OnInit {
     }
   }
 
-  shuffleOptions(): void {
-    if (this.currentQuestion) {
-      this.currentQuestion.options = [...this.currentQuestion.options].sort(() => Math.random() - 0.5);
-    }
-  }
+  // shuffleOptions(): void {
+  //   if (this.currentQuestion) {
+  //     this.currentQuestion.options = [...this.currentQuestion.options].sort(() => Math.random() - 0.5);
+  //   }
+  // }
 
   showHintMessage(): void {
     if (this.hintCount < 2) {
